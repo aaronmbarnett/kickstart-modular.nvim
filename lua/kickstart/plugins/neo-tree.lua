@@ -19,9 +19,13 @@ return {
         visible = true,
       },
       window = {
-        mappings = {
-          ['\\'] = 'close_window',
-        },
+        -- mappings = {
+        --   ['\\'] = 'close_window',
+        -- },
+      },
+      follow_current_file = {
+        enabled = true,
+        leave_dirs_open = false,
       },
       follow_current_file = {
         enabled = true,
