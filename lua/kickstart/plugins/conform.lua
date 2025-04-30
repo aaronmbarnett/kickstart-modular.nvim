@@ -24,7 +24,7 @@ return {
           return nil
         else
           return {
-            timeout_ms = 500,
+            timeout_ms = 5000,
             lsp_format = 'fallback',
           }
         end
@@ -36,12 +36,14 @@ return {
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
         javascript = {
-          'prettierd',
+          'dprint',
+          -- 'prettierd',
           --[[ stop_after_first = true ]]
         },
         typescript = {
           'eslint_d',
-          'prettierd',
+          'dprint',
+          -- 'prettierd',
         },
       },
     },
