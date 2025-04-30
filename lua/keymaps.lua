@@ -42,8 +42,11 @@ vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', {
 })
 
 -- Leap
-vim.keymap.set({ 'n', 'x', 'o' }, 's', '<Plug>(leap)')
-vim.keymap.set({ 'n', 'x', 'o' }, 'S', '<Plug>(leap-backward)')
+vim.keymap.set({ 'n', 'x', 'o' }, 'gs', '<Plug>(leap)')
+vim.keymap.set({ 'n', 'x', 'o' }, 'gS', '<Plug>(leap-backward)')
+
+-- Save without formatting
+vim.keymap.set('n', '<Leader>bw', '<cmd>noautocmd w<CR>', { desc = 'Save without formatting', silent = true })
 
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows

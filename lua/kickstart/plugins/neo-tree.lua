@@ -24,6 +24,10 @@ return {
         enabled = true,
         leave_dirs_open = false,
       },
+      follow_current_file = {
+        enabled = true,
+        leave_dirs_open = false,
+      },
     },
   },
 }
