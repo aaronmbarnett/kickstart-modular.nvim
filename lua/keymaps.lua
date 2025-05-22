@@ -42,8 +42,8 @@ vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', {
 })
 
 -- Leap
-vim.keymap.set({ 'n', 'x', 'o' }, 'gs', '<Plug>(leap)')
-vim.keymap.set({ 'n', 'x', 'o' }, 'gS', '<Plug>(leap-backward)')
+vim.keymap.set({ 'n', 'x', 'o' }, 'gs', '<Plug>(leap)', { desc = 'Leap forward' })
+vim.keymap.set({ 'n', 'x', 'o' }, 'gS', '<Plug>(leap-backward)', { desc = 'Leap backward' })
 
 -- Save without formatting
 vim.keymap.set('n', '<Leader>bw', '<cmd>noautocmd w<CR>', { desc = 'Save without formatting', silent = true })
