@@ -36,6 +36,7 @@ return {
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
         javascript = {
+          'eslint_d',
           'dprint',
           -- 'prettierd',
           --[[ stop_after_first = true ]]
@@ -44,6 +45,10 @@ return {
           'eslint_d',
           'dprint',
           -- 'prettierd',
+        },
+        json = {
+          'dprint',
+          'json-lsp',
         },
       },
     },
