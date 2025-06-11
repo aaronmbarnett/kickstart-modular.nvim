@@ -28,7 +28,6 @@ vim.keymap.set('n', '<leader>q', '<cmd>confirm q<CR>', { desc = 'Quit' })
 vim.keymap.set('n', '<leader>c', function()
   vim.cmd.bdelete()
 end, { desc = 'Close Buffer' })
-vim.keymap.set('n', '<S-k>', vim.lsp.buf.hover)
 
 -- Bufferline
 vim.keymap.set('n', '<leader>bj', '<Cmd>BufferLinePick<cr>', { desc = 'Jump' })
