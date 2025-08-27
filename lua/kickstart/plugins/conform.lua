@@ -40,8 +40,11 @@ return {
           --[[ stop_after_first = true ]]
         },
         typescript = {
-          'eslint_d',
           'prettierd',
+          'eslint_d',
+        },
+        svelte = {
+          'svelte',
         },
       },
     },
