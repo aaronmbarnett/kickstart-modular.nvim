@@ -33,6 +33,8 @@ end, { desc = 'Close Buffer' })
 vim.keymap.set('n', '<leader>bj', '<Cmd>BufferLinePick<cr>', { desc = 'Jump' })
 vim.keymap.set('n', '<leader>bb', '<Cmd>BufferLineCyclePrev<CR>', { desc = 'Previous' })
 vim.keymap.set('n', '<leader>bn', '<Cmd>BufferLineCycleNext<CR>', { desc = 'Next' })
+vim.keymap.set('n', '<leader>bl', '<Cmd>BufferLineCloseLeft<CR>', { desc = 'Close all to the left' })
+vim.keymap.set('n', '<leader>br', '<Cmd>BufferLineCloseRight<CR>', { desc = 'Close all to the right' })
 
 -- Neo-tree
 vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', {
