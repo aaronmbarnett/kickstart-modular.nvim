@@ -50,6 +50,9 @@ return {
           'dprint',
           'json-lsp',
         },
+        markdown = {
+          'markdownlint',
+        },
       },
     },
   },
